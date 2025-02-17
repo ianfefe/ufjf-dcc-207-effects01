@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import './App.css'
 import Prompt from './Prompt';
+import Tela from './Tela';
 
 function App() {
   const [estadoContador, setEstadoContador] = useState(0);
@@ -9,8 +10,13 @@ function App() {
 
   return (
     <>
+    
     <div>
       <Prompt/>
+    </div>
+
+    <div>
+      <Tela></Tela>
     </div>
 
       <div>
